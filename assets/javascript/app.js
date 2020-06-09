@@ -4,7 +4,7 @@ const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 
 // Creates questions.
-const myQuestions = [ 
+const myQuestions = [
     {
     question: 'Who is the best basketball player?',
     answers: {
@@ -14,7 +14,7 @@ const myQuestions = [
     },
     correctAnswer: 'a'
 },
-{
+    {
     question: 'What is the tallest building in the world?',
     answers: {
         a: 'Empire State building',
@@ -23,14 +23,23 @@ const myQuestions = [
     },
     correctAnswer: 'b'
 },
-{
+    {
     question: 'Who said, "Ive never seen a thin person drinking diet coke?"',
     answers: {
         a: 'Bill Burr',
         b: 'Seth Rogan',
         c: 'Donald Trump'
     },
-    correctAnswer: 'a'
+    correctAnswer: 'c'
+},
+    {
+    question: "Who is the founder of Rapture?",
+        answers: {
+            a: "Bill Mcdonagh",
+            b: "Cohen Sanders",
+            c: "Andrew Ryan"
+    },
+    correctAnswer: "c"
 },
 ];
 // Main quiz logic.
@@ -76,6 +85,7 @@ function showResults(){
     else{
       answerContainers[questionNumber].style.color = 'red';
     }
+
   });
 // Displays score.
   resultsContainer.innerHTML = numCorrect + ' out of ' + myQuestions.length;
