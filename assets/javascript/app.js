@@ -36,7 +36,7 @@ const myQuestions = [
 // Main quiz logic.
 function buildQuiz(){
     const output = [];
-    myQuestions.foreach(
+    myQuestions.forEach(
         (currentQuestion, questionNumber) => {
             const answers = [];
 
@@ -56,7 +56,7 @@ function buildQuiz(){
           }
         );
 
-        quizContainer.innerHTML = output.join('');
+        quizContainer.innerHTML = output.join("");
       }
 
 // Determines results of quiz.
