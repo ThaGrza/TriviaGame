@@ -1,4 +1,43 @@
-#header{
-  color: blue;
-  font-size: 48px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+
+.container{
+  margin-top: ;
+  margin:auto;
+  text-align: center;
+  background-color: aliceblue;
+}
+.page-heading{
+  background-color: rgb(107, 194, 67);
+  color: rgb(91, 75, 233);
+  font-size: 56px;
+  padding: 20px;
+  text-align: center;
+}
+.question{
+  font-weight: bold;
+  font-size: x-large;
+}
+.answers{
+  font-size: large;
+  padding:5px;
+  margin-bottom: 25px;
 }

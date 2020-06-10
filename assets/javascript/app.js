@@ -34,12 +34,66 @@ const myQuestions = [
 },
     {
     question: "Who is the founder of Rapture?",
-        answers: {
-            a: "Bill Mcdonagh",
-            b: "Cohen Sanders",
-            c: "Andrew Ryan"
+    answers: {
+      a: "Bill Mcdonagh",
+      b: "Cohen Sanders",
+      c: "Andrew Ryan"
     },
     correctAnswer: "c"
+},
+{
+    question: "What is the name for the Jewish New Year?",
+    answers: {
+      a: 'Kwanza',
+      b: 'Yom Kippur',
+      c: 'Hanukkah'
+  },
+  correctAnswer: 'c'
+},
+{
+    question: "Which one of these characters is not friends with Harry Potter?",
+    answers: {
+      a: 'Ron Weasley',
+      b: 'Draco Malfoy',
+      c: 'Neville Longbottom'
+  },
+  correctAnswer: 'b'
+},
+{
+    question: 'What is the color of Donald Duck’s bowtie?',
+    answers: {
+      a: 'Red',
+      b: 'Blue',
+      c: 'Black'
+  },
+  correctAnswer: 'a'
+},
+{
+    question: 'Which animal does not appear in the Chinese zodiac?',
+    answers: {
+      a: 'Dragon',
+      b: 'Rabbit',
+      c: 'Hummingbird'
+  },
+  correctAnswer: 'c'
+},
+{
+    question: "Which country held the 2016 Summer Olympics?",
+    answers: {
+      a: 'Brazil',
+      b: 'China',
+      c: 'Italy'
+  },
+  correctAnswer: 'a'
+},
+{
+    question: "Which planet is the hottest?",
+    answers: {
+      a: 'Saturn',
+      b: 'Venus',
+      c: 'Mars'
+  },
+  correctAnswer: 'b'
 },
 ];
 // Main quiz logic.
